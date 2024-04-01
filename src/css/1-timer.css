@@ -17,6 +17,24 @@
     line-height: 1.5;
     letter-spacing: 0.04em;
 }
+#datetime-picker:hover {
+    border: 1px solid #000;
+}
+#datetime-picker:active {
+    border: 1px solid #4E75FF;
+}
+#datetime-picker:disabled {
+    color: #808080;
+}
+
+.iziToast-body {
+    border-radius: 4px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
 
 button[data-start] {
     padding: 8px 16px;
